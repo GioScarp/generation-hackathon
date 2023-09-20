@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200 px;
+  font-family: sans-serif; 
+}
+
+.img-card {
+    max-width: 100%;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.item{
+    background-color: #ECECEC;
+    border-radius: 15px;
+    transition: transform 0.3s ease; 
+    transition: transform 0.3s
+}
+
+.item:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.info-product {
+    text-align: center;
+    font-family: 'Roboto'
+}
+
+.añadir-product{
+    background-color: #FF9F1C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.añadir-product:hover {
+    background-color: #FFB740; 
+    transform: scale(1.05); 
+}
+
+.title-catalogo {
+    text-align: center;
+    margin: 30px;
+}
