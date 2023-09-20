@@ -266,7 +266,7 @@ body {
     font-family: 'Roboto'
 }
 
-.añadir-product{
+.btn-add-cart{
     background-color: #FF9F1C;
     color: #fff;
     padding: 10px 20px;
@@ -278,7 +278,7 @@ body {
     margin-bottom: 15px;
 }
 
-.añadir-product:hover {
+.btn-add-cart:hover {
     background-color: #FFB740; 
     transform: scale(1.05); 
 }
