@@ -26,10 +26,32 @@
                             <a href="#" class="link">Contacto</a>
                         </div>
                     </div>
+
                     <!-- Carrito de compras -->
-                    <div class="container--car">
-                        <div id="car">
-                            <i class="fas fa-shopping-cart"></i><span id="cantidad-productos">0</span>
+                    <div class="container-icon">
+                        <div class="container-cart-icon">
+                            <div id="car">
+                                <i class="fas fa-shopping-cart"></i><span id="contador-productos">0</span>
+                            </div>
+
+                            <div class="container-cart-products hidden-cart">
+                                <div class="row-product hidden">
+                                    <div class="cart-product">
+                                        <div class="info-cart-product">
+                                            <span class="cantidad-producto-carrito">1</span>
+                                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                                            <span class="precio-producto-carrito">$80</span>
+                                        </div>
+                                        <i class="fas fa-close"></i>
+                                    </div>
+                                </div>
+            
+                                <div class="cart-total hidden">
+                                    <h3>Total:</h3>
+                                    <span class="total-pagar">$200</span>
+                                </div>
+                                <p class="cart-empty">El carrito está vacío</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -181,6 +203,6 @@
         </div>
     </footer>
     
-
+    <script src="/js/script.js"></script>
 </body>
 </html>
