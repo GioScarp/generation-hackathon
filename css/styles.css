@@ -35,7 +35,7 @@
 :root{
     --orange: #FF9F1C;
     --orange-light: #FFBF69;
-    --agua-marina: #89cadd;
+    --agua-marina: #546fc6;
 }
 
 
@@ -100,9 +100,10 @@ body {
 
 .link {
     text-decoration: none;
-    color: inherit;
+    color: white;
     font-weight: 300;
     padding: 20px;
+
 }
 .link:hover {
     color: var(--orange);
