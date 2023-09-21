@@ -15,18 +15,18 @@
 
 @keyframes banner {
     0% , 20% {
-        background-image: url(/img/bannner1.jpg) ;
+        background-image: url(../img/bannner1.jpg) ;
     }
     25% , 45% {
-        background-image: url(/img/bannner2.jpg);
+        background-image: url(../img/bannner2.jpg);
     }
     
     50% , 70% {
-        background-image: url(/img/bannner3.jpg);
+        background-image: url(../img/bannner3.jpg);
     }
 
     75% , 100% {
-        background-image: url(/img/bannner4.jpg);
+        background-image: url(../img/bannner4.jpg);
     }
 }
 
