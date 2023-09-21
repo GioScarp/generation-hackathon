@@ -18,6 +18,9 @@ const valorTotal = document.querySelector('.total-pagar')
 
 const countProduct = document.querySelector('#contador-productos')
 
+const cartEmpty = document.querySelector('.cart-empty');
+const cartTotal = document.querySelector('.cart-total');
+
 
 productsList.addEventListener("click", e => {
   if (e.target.classList.contains("btn-add-cart")) {
@@ -71,16 +74,15 @@ rowProduct.addEventListener('click', e => {
 
 const showHTML = () => {
 
-    if (!allProducts.length) {
-        containerCartProducts.innerHTML = `
-        <p class="cart-empty">El carrito está vacío</p>
-        `
-    }
-if (!allProducts.length) {
-    containerCartProducts.innerHTML = `
-    <p class="cart-empty">El carrito está vacío</p>
-    `;
-}
+	if (!allProducts.length) {
+		cartEmpty.classList.remove('hidden');
+		rowProduct.classList.add('hidden');
+		cartTotal.classList.add('hidden');
+	} else {
+		cartEmpty.classList.add('hidden');
+		rowProduct.classList.remove('hidden');
+		cartTotal.classList.remove('hidden');
+	}
     
     rowProduct.innerHTML = ''
 
